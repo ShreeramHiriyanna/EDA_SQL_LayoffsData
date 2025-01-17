@@ -10,30 +10,30 @@ This project showcases the end-to-end process of preparing a raw dataset for ana
 
 **Dataset:** Layoffs dataset, containing records from various companies with details such as dates, industry, locations, and layoff numbers
 **Objective:**
-	1.	Clean and structure the dataset to remove inconsistencies and errors
-	2.	Extract meaningful insights using SQL for exploratory data analysis
+- Clean and structure the dataset to remove inconsistencies and errors
+- Extract meaningful insights using SQL for exploratory data analysis
 
 ### Project Workflow
 
 **Data Cleaning**
-	1.	Removing Duplicates: Identified duplicates using the ROW_NUMBER() function and removed redundant entries
-	2.	Standardizing Data: Trimmed whitespaces, standardized country names, and converted date formats
-	3.	Handling Null Values: Removed rows with null or empty critical fields
-	4.	Creating Cleaned Dataset: Consolidated cleaned data into a refined table for analysis
+- Removing Duplicates: Identified duplicates using the ROW_NUMBER() function and removed redundant entries
+- Standardizing Data: Trimmed whitespaces, standardized country names, and converted date formats
+- Handling Null Values: Removed rows with null or empty critical fields
+- Creating Cleaned Dataset: Consolidated cleaned data into a refined table for analysis
 
 **Exploratory Data Analysis**
-	1.	General Statistics: Maximum layoffs, companies with 100% layoffs
-	2.	Company-Specific Insights: Total layoffs per company and largest layoff events
-	3.	Temporal Trends: Analysis by year and month
-	4.	Industry and Country Analysis: Layoffs by industry and country
-	5.	Rolling Summation: Visualizing trends using rolling sums over time
+- General Statistics: Maximum layoffs, companies with 100% layoffs
+- Company-Specific Insights: Total layoffs per company and largest layoff events
+- Temporal Trends: Analysis by year and month
+- Industry and Country Analysis: Layoffs by industry and country
+- Rolling Summation: Visualizing trends using rolling sums over time
 
  **Key Insights**
-	1.	Largest Layoff Event: Maximum number of layoffs in a single event
-	2.	100% Layoffs: Companies that laid off their entire workforce
-	3.	Industry Trends: Industries with the highest layoffs
-	4.	Country Insights: Countries most impacted by layoffs
-	5.	Temporal Trends: Patterns in layoffs across years and months
+- Largest Layoff Event: Maximum number of layoffs in a single event
+- 100% Layoffs: Companies that laid off their entire workforce
+- Industry Trends: Industries with the highest layoffs
+- Country Insights: Countries most impacted by layoffs
+- Temporal Trends: Patterns in layoffs across years and months
 
 ### Skills and Tools
 
@@ -44,8 +44,8 @@ This project showcases the end-to-end process of preparing a raw dataset for ana
   - Problem-Solving: Addressing and resolving common data issues (duplicates, null values, formatting)
 
 **Tools Used:**
-	- MySQL: For database creation, manipulation, and querying
- Version Control: GitHub for project tracking and sharing
+- MySQL: For database creation, manipulation, and querying
+- Version Control: GitHub for project tracking and sharing
 
 ## Conclusion
 
