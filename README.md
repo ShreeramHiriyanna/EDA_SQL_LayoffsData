@@ -1,4 +1,4 @@
-# Data Cleaning and Exploratory Data Analysis: Layoffs Dataset
+# Data Cleaning and Exploratory Data Analysis: [Layoffs Dataset](https://github.com/ShreeramHiriyanna/EDA_SQL_LayoffsData/blob/main/layoffs.csv)
 
 ## Transforming Raw Data into Actionable Insights using SQL
 
@@ -15,13 +15,13 @@ This project showcases the end-to-end process of preparing a raw dataset for ana
 
 ### Project Workflow
 
-**Data Cleaning**
+[**Data Cleaning**](https://github.com/ShreeramHiriyanna/EDA_SQL_LayoffsData/blob/main/EDA.SQL)
 - Removing Duplicates: Identified duplicates using the ROW_NUMBER() function and removed redundant entries
 - Standardizing Data: Trimmed whitespaces, standardized country names, and converted date formats
 - Handling Null Values: Removed rows with null or empty critical fields
 - Creating Cleaned Dataset: Consolidated cleaned data into a refined table for analysis
 
-**Exploratory Data Analysis**
+[**Exploratory Data Analysis**](https://github.com/ShreeramHiriyanna/EDA_SQL_LayoffsData/blob/main/EDA.SQL)
 - General Statistics: Maximum layoffs, companies with 100% layoffs
 - Company-Specific Insights: Total layoffs per company and largest layoff events
 - Temporal Trends: Analysis by year and month
